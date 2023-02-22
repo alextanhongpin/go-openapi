@@ -1,14 +1,9 @@
-package api
+package petstore
 
 import (
 	"encoding/json"
 	"net/http"
-
-	"github.com/alextanhongpin/go-openapi/petstore"
 )
-
-type FindPetsParams = petstore.FindPetsParams
-type Pet = petstore.Pet
 
 type PetStoreImpl struct{}
 
